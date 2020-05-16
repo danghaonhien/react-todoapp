@@ -5,7 +5,7 @@ function TodoItems(props) {
     <li
       onClick={() => {
         {
-          props.onChecked();
+          props.onChecked(props.id);
         }
       }}
     >
